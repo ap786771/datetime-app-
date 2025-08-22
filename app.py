@@ -16,7 +16,7 @@ def get_datetime():
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
         <style>
             body {{
-                background: linear-gradient(135deg, #667eea, #764ba2);
+                background: linear-gradient(135deg, #FFA500, #FF7F50); /* orange gradient */
                 height: 100vh;
                 display: flex;
                 justify-content: center;
@@ -25,7 +25,7 @@ def get_datetime():
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             }}
             .card {{
-                background: rgba(0,0,0,0.6);
+                background: rgba(0,0,0,0.5);
                 padding: 40px;
                 border-radius: 20px;
                 box-shadow: 0 8px 20px rgba(0,0,0,0.4);
@@ -52,4 +52,4 @@ def get_datetime():
     return html_content
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    app.run(host="0.0.0.0", port=9000)
